@@ -15,6 +15,11 @@ namespace csharp_tutorial
 
         // LINQ is a good example of extension methods, delegates and anonymous types
 
+        private class User
+        {
+            public string Name { get; set; }
+        }
+
         private class Person
         {
             public string Name { get; set; }
